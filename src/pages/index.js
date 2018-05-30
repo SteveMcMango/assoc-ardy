@@ -188,7 +188,7 @@ Banque: Raiffeisen
                         <p></p>
                         <div className="row">
                             <div className="8u 12u$(small)">
-                            <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+                            <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field" netlify>
                             <input type="hidden" name="bot-field" />
                                     <div className="row uniform 50%">
                                         <div className="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Nom" /></div>
