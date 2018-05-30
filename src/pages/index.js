@@ -52,7 +52,7 @@ const DEFAULT_IMAGES = [
     { id: '4', src: full04, thumbnail: thumb04},
     { id: '5', src: full05, thumbnail: thumb05},
     { id: '6', src: full06, thumbnail: thumb06},
-    { id: '7', src: full07, thumbnail: thumb07, caption: 'Ngar-su-taung village, Yangon Division, Birmanie'},
+    { id: '7', src: full07, thumbnail: thumb07, caption: 'Ngar-su-taung village, Yangon, Birmanie'},
     { id: '8', src: full08, thumbnail: thumb08, caption: 'Ecole primaire'},
     { id: '10', src: full10, thumbnail: thumb10},
     { id: '11', src: full11, thumbnail: thumb11},
