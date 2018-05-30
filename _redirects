@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to primary domain
+https://silly-yalow-7a7363.netlify.com/* https://www.associationardevaz.org/:splat 301!
