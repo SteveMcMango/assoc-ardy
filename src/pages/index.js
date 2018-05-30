@@ -213,7 +213,7 @@ Banque: Raiffeisen
                                     </li>
                                     <li>
                                         <h3 className="icon fa-envelope-o"><span className="label">Courriel</span></h3>
-                                        <a href="#">info@ardevaz.com</a>
+                                        <a href="mailto:info@ardevaz.com">info@ardevaz.com</a>
                                     </li>
                                 </ul>
                             </div>
