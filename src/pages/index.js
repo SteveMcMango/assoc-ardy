@@ -196,7 +196,7 @@ Banque: Raiffeisen
                                     </div>
                                 </form>
                                 <ul className="actions">
-                                <li><input type="submit" value="Envoyer" /></li>
+                                <li><input type="submit" value="Submit" /></li>
                                 </ul>
                             </div>
                             <div className="4u 12u$(small)">
