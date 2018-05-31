@@ -131,7 +131,7 @@ class HomeIndex extends React.Component {
                    
                         <header className="major">
 
-                        <YouTube id='Kla7aQwa5lM' />
+                        <YouTube id='Kla7aQwa5lM' appendSrc="?autoplay=1" />
 
                            
                         </header>
