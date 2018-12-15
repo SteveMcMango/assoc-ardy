@@ -169,8 +169,9 @@ Banque: Raiffeisen
 
 <img src={AssociationArdevazPDF} alt="Ardevaz update" />
 
+      <!--
 <img src={CertOfTransfer} alt="Cert of transfer" />
-
+-->
 
 </section>
 
