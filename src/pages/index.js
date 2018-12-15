@@ -167,9 +167,9 @@ Banque: Raiffeisen
 
 <section id="three">
 
-<img src={AssociationArdevazPDF} alt="Ardevaz update" />;
+<img src={AssociationArdevazPDF} alt="Ardevaz update" />
 
-<img src={CERFTIFICATE-OF-TRANSFER -birmanie (FB).pdf} alt="Cert of transfer" />;
+<img src={CERFTIFICATE-OF-TRANSFER -birmanie (FB).pdf} alt="Cert of transfer" />
 
 
 </section>
