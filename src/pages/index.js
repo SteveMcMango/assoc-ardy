@@ -4,7 +4,7 @@ import get from 'lodash/get'
 import Helmet from 'react-helmet'
 import YouTube from 'react-youtube-embed'
 import AssociationArdevazPDF from '../assets/images/AssociationArdevazPDF.jpg'
-import AssociationArdevazPDF from '../assets/images/CERFTIFICATE-OF-TRANSFER -birmanie (FB).pdf'
+import CertOfTransfer from '../assets/images/CERFTIFICATE-OF-TRANSFER -birmanie (FB).pdf'
       
 
 
@@ -169,7 +169,7 @@ Banque: Raiffeisen
 
 <img src={AssociationArdevazPDF} alt="Ardevaz update" />
 
-<img src={CERFTIFICATE-OF-TRANSFER -birmanie (FB).pdf} alt="Cert of transfer" />
+<img src={CertOfTransfer} alt="Cert of transfer" />
 
 
 </section>
