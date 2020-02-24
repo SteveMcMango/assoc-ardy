@@ -4,8 +4,7 @@ import get from 'lodash/get'
 import Helmet from 'react-helmet'
 import YouTube from 'react-youtube-embed'
 import AssociationArdevazPDF from '../assets/images/AssociationArdevazPDF.jpg'
-import CertOfTransfer from '../assets/images/CERFTIFICATE-OF-TRANSFER -birmanie (FB).pdf'
-      
+
 
 
 // import Lightbox from 'react-images'
@@ -53,7 +52,7 @@ const DEFAULT_IMAGES = [
     { id: '4', src: full04, thumbnail: thumb04},
     { id: '5', src: full05, thumbnail: thumb05},
     { id: '6', src: full06, thumbnail: thumb06},
-    { id: '7', src: full07, thumbnail: thumb07, caption: 'Ngar-su-taung village, Yangon, Birmanie'},
+    { id: '7', src: full07, thumbnail: thumb07, caption: 'Ngar-su-taung village, Yangon Division, Birmanie'},
     { id: '8', src: full08, thumbnail: thumb08, caption: 'Ecole primaire'},
     { id: '10', src: full10, thumbnail: thumb10},
     { id: '11', src: full11, thumbnail: thumb11},
@@ -132,7 +131,7 @@ class HomeIndex extends React.Component {
                    
                         <header className="major">
 
-                        <YouTube id='Kla7aQwa5lM' appendSrc="?autoplay=1" />
+                        <YouTube id='Kla7aQwa5lM' appendSrc="?autoplay=1&loop=1" />
 
                            
                         </header>
@@ -140,7 +139,7 @@ class HomeIndex extends React.Component {
                         <h2 style={{ margin: "2rem auto" }}>Nous avons pu accueillir 130 étudiants pour cette rentrée scolaire… <br />grâce à vous ! MERCI
 
                         </h2>
-                        <p><em style={{fontSize: "0.5 rem"}}>mise à jour: mai 2018</em></p>
+                        <p><em style={{fontSize: "0.5 rem"}}>mise à jour : février 2020</em></p>
                         <p><em style={{color: "black"}}>"Nous n’étudions pas pour l’école, mais pour la vie !"</em></p>
                         <p>Depuis 38 ans, l’Ecole Ardévaz défend ce crédo qui va bien au-delà du slogan! En effet, l’Ecole s’efforce d’offrir un enseignement de qualité qui permet à des jeunes d’obtenir un bagage solide, pour leur avenir. Et ce, quelque soit leur parcours ou leur origine, en plaçant l’humain au centre.</p>
                         <p>En créant l’association Ardévaz, l’Ecole a voulu aller encore plus loin en bâtissant un véritable pont entre la Suisse et un pays défavorisé, le Myanmar.</p>
@@ -152,7 +151,7 @@ class HomeIndex extends React.Component {
                     <section id="two">
                         <p>Si comme nous, vous voulez permettre à un enfant d’avoir la possibilité d’aller à l’école, aidez-nous à poursuivre ces projets… qui sont des investissements pour la vie…</p>
                     
-                        <p style={{color: "magenta"}}>Budget 2018 pour 130 étudiants: USD 8000</p>
+                        <p style={{color: "magenta"}}>Budget 2020 pour 130 étudiants: USD 14’000  </p>
 
                         <h3 style={{color: "magenta"}}>Pour nous aider Compte: Association Ardévaz<br />
 
@@ -167,10 +166,13 @@ Banque: Raiffeisen
 
 <section id="three">
 
-<img src={AssociationArdevazPDF} alt="Ardevaz update" />
+<YouTube id='BvnHlEUilQA' appendSrc="?autoplay=1&loop=1" />
+<p></p>
+<YouTube id='Kla7aQwa5lM' appendSrc="?autoplay=1&loop=1" />
+<p></p>
 
-     
-<img src={CertOfTransfer} alt="" />
+
+<img src={AssociationArdevazPDF} class="image" alt="Ardevaz update" />;
 
 </section>
 
@@ -191,7 +193,21 @@ Banque: Raiffeisen
                         </h2>
                         <p></p>
                         <div className="row">
-                        
+                            <div className="8u 12u$(small)">
+                            <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+                            <input type="hidden" name="bot-field" />
+                                    <div className="row uniform 50%">
+                                        <div className="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Nom" /></div>
+                                        <div className="6u 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Email" /></div>
+                                        <div className="12u"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
+                                    </div>
+
+
+                                </form>
+                                <ul className="actions">
+                                    <li><input type="submit" value="Envoyer" /></li>
+                                </ul>
+                            </div>
                             <div className="4u 12u$(small)">
                                 <ul className="labeled-icons">
                                     <li>
